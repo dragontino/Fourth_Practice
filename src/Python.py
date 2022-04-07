@@ -13,8 +13,6 @@ def f(_i):
     return f(_i - 1) + s
 
 
-startTime = time.time()
-
 print("Введите n")
 n = int(input())
 array = []
@@ -26,4 +24,4 @@ for i in range(n):
 print("Последний элемент =", array[-1])
 
 endTime = time.time()
-print("Время = {} секунд".format(endTime - startTime))
+print("Время = {} секунд".format(time.process_time()))

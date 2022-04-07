@@ -3,19 +3,18 @@ import java.util.Scanner;
 public class Java {
     public static void main(String[] args) {
 
-        long startTime = System.currentTimeMillis();
-
         Scanner input = new Scanner(System.in);
 
         println("Введите n");
         int n = input.nextInt();
-        int [] array = new int[n];
+        long startTime = System.currentTimeMillis();
+        long result = 0;
 
         println("Выполняется...");
-        for (int i = 0; i < array.length; i++)
-            array[i] = f(i);
+        for (int i = 0; i < n; i++)
+            result = f(i);
 
-        println(array[n - 1]);
+        println("Последний элемент = " + result);
         long endTime = System.currentTimeMillis();
         print("Время = " + (endTime - startTime) / 1000 + " секунд");
     }

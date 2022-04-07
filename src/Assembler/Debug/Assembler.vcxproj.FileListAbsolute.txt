@@ -1,0 +1,2 @@
+C:\Users\petro\IdeaProjects\os_practice_4\src\Assembler\Debug\Assembler.exe
+C:\Users\petro\IdeaProjects\os_practice_4\src\Assembler\Debug\Assembler.pdb
