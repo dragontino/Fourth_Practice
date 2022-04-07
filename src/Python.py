@@ -13,7 +13,7 @@ def f(_i):
     return f(_i - 1) + s
 
 
-print("Введите n")
+print("Введите n:")
 n = int(input())
 array = []
 
